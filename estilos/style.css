@@ -1,0 +1,74 @@
+ /* *{
+    margin: 0%;   
+    padding: 0;
+   }
+
+/* index */ 
+
+
+    
+header{
+    grid-area: cabecera ;
+}
+   h1{
+    justify-content: center;
+    text-align: center;
+    list-style: none;
+
+} 
+
+
+main{
+    grid-area: medio ;
+}
+
+footer{
+    grid-area: pie;
+}
+
+nav ul a{
+    flex-direction:row ;
+    color: #ffffff ;
+
+} 
+
+ .flexcontenedor{
+    display: flex ;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: rgb(0, 0, 0);    
+}
+ 
+.footer{ 
+    display: flex;
+    background-color: black ;   
+    justify-content: space-evenly;
+    list-style: none ;
+    
+}
+a{  color: white;
+    list-style: none;
+    font-family: sans-serif;
+}
+    
+/* fin del index */
+
+@media only screen and (max-width: 780px){ 
+  body{
+   flex-direction: column; 
+   justify-content: center;
+   }
+
+        
+/* contacto */ 
+
+.dos{
+    justify-content: space-evenly;
+}
+
+/* biografia */ 
+
+.carrusel{
+    width: 10px ;
+
+} 
